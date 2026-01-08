@@ -1,0 +1,7 @@
+.venv/
+
+src/model/
+
+/src/database/
+
+augemented_data/
