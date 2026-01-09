@@ -88,7 +88,7 @@ st.markdown("""
 def load_gesture_model():
     """Load the trained model"""
     try:
-        model = load_model('/home/sengmeng/Desktop/I4 AMS/I4 AMS S1/AI/Course/Project_Sign_Language/src/notebook/ori_alexnet_sign_language_model.h5')
+        model = load_model('/home/sengmeng/Desktop/I4 AMS/I4 AMS S1/AI/Course/Project_Sign_Language/src/notebook/alexnet_sign_language_model1.h5')
         return model
     except Exception as e:
         st.error(f"Error loading model: {e}")
