@@ -36,3 +36,5 @@ checkpoints/
 *.hdf5
 *.pb
 saved_models/
+
+model/
