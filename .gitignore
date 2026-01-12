@@ -1,7 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.so
+
+# Virtual environments
 .venv/
+venv/
+env/
 
-src/model/
+# Jupyter
+.ipynb_checkpoints/
 
-/src/database/
+# IDE / Editor
+.vscode/
+.idea/
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and outputs
+src/database/
 augemented_data/
+augmented_data/
+outputs/
+runs/
+logs/
+checkpoints/
+
+# Models
+*.h5
+*.hdf5
+*.pb
+saved_models/
